@@ -89,7 +89,7 @@ $black: #000;
   background-image: url(./image/hero-image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 82vh;
+  height: 85vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -99,6 +99,9 @@ $black: #000;
 }
 
 // ---------------------------------------------------------------- FEATURE CATEGORY ----------------------------------------------------------------
+.product-banner {
+  margin-top: 85px;
+}
 .category-card {
   .card {
     &-body {
@@ -117,5 +120,24 @@ $black: #000;
         }
       }
     }
+  }
+}
+
+// ---------------------------------------------------------------- OFFER PRICE BANNER ----------------------------------------------------------------
+
+.offer-banner {
+  background: url(./image/offer-banner.jpg);
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $warning;
+  text-align: center;
+  margin-top: 115px;
+  h4,
+  h3 {
+    font-size: 60px;
   }
 }
