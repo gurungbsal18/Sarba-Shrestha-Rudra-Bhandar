@@ -26,6 +26,10 @@ $danger: #dc3545;
 $white: #fff;
 $black: #000;
 
+.btn-primary {
+  background-color: $primary !important;
+}
+
 .title {
   font-size: 28px;
   font-family: "Bitter", serif;
@@ -139,5 +143,37 @@ $black: #000;
   h4,
   h3 {
     font-size: 60px;
+  }
+}
+
+// ---------------------------------------------------------------- SUBSCRIBE SECTION ----------------------------------------------------------------
+.subscribe-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 524px;
+  padding: 130px 0;
+  &-image {
+    img {
+      background-size: cover;
+      width: 100%;
+    }
+  }
+  &-text {
+    text-align: center;
+    width: 30% !important;
+    p {
+      font-size: 12px;
+    }
+    input {
+      width: 100%;
+      border-radius: 30px;
+      border: 1px solid $secondary;
+      padding: 5px 10px;
+    }
+    span {
+      color: $primary;
+      font-weight: 700;
+    }
   }
 }

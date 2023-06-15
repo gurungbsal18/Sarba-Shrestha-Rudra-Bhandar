@@ -4,6 +4,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+.btn-primary {
+  background-color: #15657c !important;
+}
+
 .title {
   font-size: 28px;
   font-family: "Bitter", serif;
@@ -101,4 +105,33 @@
 .offer-banner h4,
 .offer-banner h3 {
   font-size: 60px;
+}
+
+.subscribe-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 524px;
+  padding: 130px 0;
+}
+.subscribe-section-image img {
+  background-size: cover;
+  width: 100%;
+}
+.subscribe-section-text {
+  text-align: center;
+  width: 30% !important;
+}
+.subscribe-section-text p {
+  font-size: 12px;
+}
+.subscribe-section-text input {
+  width: 100%;
+  border-radius: 30px;
+  border: 1px solid #6c757d;
+  padding: 5px 10px;
+}
+.subscribe-section-text span {
+  color: #15657c;
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */
