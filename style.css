@@ -112,7 +112,7 @@
   justify-content: space-around;
   align-items: center;
   height: 524px;
-  padding: 130px 0;
+  margin: 130px 0;
 }
 .subscribe-section-image img {
   background-size: cover;
@@ -134,4 +134,31 @@
 .subscribe-section-text span {
   color: #15657c;
   font-weight: 700;
+}
+
+.footer-top-image {
+  background: url(./image/Footer.png);
+  background-size: cover;
+  height: 236.02px;
+  width: 100%;
+}
+
+.footer {
+  height: 300px;
+  background-color: #1e262a;
+  padding-top: 50px;
+  text-align: left;
+  color: #fff;
+}
+.footer-content .footer-title {
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+}
+.footer-content .footer-text ul {
+  padding: 0;
+}
+.footer-content .footer-text ul li {
+  list-style-type: none;
+  padding: 0;
 }/*# sourceMappingURL=style.css.map */
