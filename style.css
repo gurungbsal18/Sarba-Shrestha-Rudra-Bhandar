@@ -107,6 +107,16 @@
   font-size: 60px;
 }
 
+.product-tab ul {
+  padding: 30px 0;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.product-tab ul li {
+  list-style: none;
+}
+
 .subscribe-section {
   display: flex;
   justify-content: space-around;
