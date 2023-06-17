@@ -70,10 +70,12 @@ $black: #000;
 
 // ---------------------------------------------------------------- NAVBAR ----------------------------------------------------------------
 .navbar {
+  background: $primary;
   ul li a {
     font-weight: 500;
+    color: $white;
     &:hover {
-      color: $primary;
+      color: $warning;
     }
   }
 

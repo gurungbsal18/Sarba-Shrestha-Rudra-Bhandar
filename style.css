@@ -42,11 +42,15 @@
   font-size: 14px;
 }
 
+.navbar {
+  background: #15657c;
+}
 .navbar ul li a {
   font-weight: 500;
+  color: #fff;
 }
 .navbar ul li a:hover {
-  color: #15657c;
+  color: #ffc107;
 }
 .navbar a.active {
   color: #15657c !important;
