@@ -135,23 +135,42 @@
         </div>
         <div class="col-6">
           <h4 class="title">Send Inquiry</h4>
-          <span>Full Name</span>
-          <br />
-          <input type="text" placeholder="Full Name" />
-          <br />
-          <span>Email Address</span>
-          <br />
-          <input type="email" name="" id="" />
-          <br />
-          <span>Phone/WhatsApp/Viber</span>
-          <br />
-          <input type="number" name="" id="" />
-          <br />
-          <span>Message</span>
-          <br />
-          <textarea name="" id="" cols="30" rows="10"></textarea>
-          <br />
-          <button class="btn btn-primary">Send</button>
+
+          <div class="contact-form">
+            <div class="row mt-4">
+              <div class="col-3"><label for="Full Name">Full Name</label></div>
+              <div class="col-9">
+                <input type="text" />
+              </div>
+            </div>
+
+            <div class="row mt-4">
+              <div class="col-3"><label for="email">Email Address</label></div>
+              <div class="col-9"><input type="email" name="" id="" /></div>
+            </div>
+
+            <div class="row mt-4">
+              <div class="col-3">
+                <label for="phone number">Phone/WhatsApp/Viber</label>
+              </div>
+              <div class="col-9"><input type="number" name="" id="" /></div>
+            </div>
+
+            <div class="row mt-4">
+              <div class="col-3">
+                <label for="phone number">Address</label>
+              </div>
+              <div class="col-9"><input type="text" name="" id="" /></div>
+            </div>
+
+            <div class="row mt-4 d-flex flex-column">
+              <div class="col"><label for="message">Message</label></div>
+              <div class="col-12">
+                <textarea name="" id="" cols="30" rows="6"></textarea>
+              </div>
+            </div>
+            <button class="btn btn-primary">Send</button>
+          </div>
         </div>
       </div>
     </div>

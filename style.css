@@ -265,4 +265,9 @@ p {
 
 .fact-tab {
   margin-top: 30px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
