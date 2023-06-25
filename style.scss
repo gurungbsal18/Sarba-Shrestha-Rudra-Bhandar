@@ -323,9 +323,21 @@ $black: #000;
 }
 
 // ---------------------------------------------------------------- Contact us Page ----------------------------------------------------------------
-.contact-form {
-  input,
-  textarea {
-    width: 100%;
+.contact {
+  &-form {
+    input,
+    textarea {
+      width: 100%;
+    }
+  }
+  &-icon {
+    background: #d9d9d9;
+    color: $primary;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 20px;
+  }
+  &-content {
+    font-size: 14px;
   }
 }

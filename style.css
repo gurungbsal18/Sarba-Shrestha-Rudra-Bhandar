@@ -270,4 +270,14 @@ p {
 .contact-form input,
 .contact-form textarea {
   width: 100%;
+}
+.contact-icon {
+  background: #d9d9d9;
+  color: #15657c;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 20px;
+}
+.contact-content {
+  font-size: 14px;
 }/*# sourceMappingURL=style.css.map */
