@@ -283,4 +283,12 @@ p {
 }
 .contact-content {
   font-size: 14px;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  display: none;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
 }/*# sourceMappingURL=style.css.map */
