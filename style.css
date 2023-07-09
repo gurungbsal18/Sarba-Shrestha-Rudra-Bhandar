@@ -136,19 +136,7 @@ p {
   font-size: 60px;
 }
 
-.product-tab ul {
-  padding: 30px 0;
-  gap: 30px;
-  font-weight: 700;
-  font-size: 18px;
-}
-.product-tab ul li {
-  list-style: none;
-}
-.product-tab ul li a {
-  color: #15657c;
-}
-.product-tab ul li a:hover {
+#productTab .nav-link {
   color: #15657c;
 }
 

@@ -175,25 +175,11 @@ $black: #000;
 }
 
 // ---------------------------------------------------------------- PRODUCT TAB SECTION ----------------------------------------------------------------
-
-.product-tab {
-  ul {
-    padding: 30px 0;
-    gap: 30px;
-    font-weight: 700;
-    font-size: 18px;
-    li {
-      list-style: none;
-      a {
-        color: $primary;
-        &:hover {
-          color: $primary;
-        }
-      }
-    }
+#productTab {
+  .nav-link {
+    color: #15657c;
   }
 }
-
 // ---------------------------------------------------------------- SUBSCRIBE SECTION ----------------------------------------------------------------
 .subscribe-section {
   display: flex;
